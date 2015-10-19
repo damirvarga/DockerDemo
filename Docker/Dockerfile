@@ -8,5 +8,5 @@ RUN unzip /tmp/Demo02.Web.zip -d /tmp/www/ && \
  rm -r /var/www && \
  mv -v "$site_dir" /var/www && \
  rm -r /tmp/*
-ADD runit_bootstrap_ext /usr/sbin/runit_bootstrap_ext
-CMD ["/usr/sbin/runit_bootstrap_ext"]
+#ADD runit_bootstrap_ext /usr/sbin/runit_bootstrap_ext
+#CMD ["/usr/sbin/runit_bootstrap_ext"]
